@@ -36,6 +36,12 @@ public class StockItemMockService implements StockItemApi {
                         .withStock(9)
                         .withPrice(990.0)
                         .withManufacturer("JVC")
+		new StockItem("5")
+			.withName("Item 5")
+			.withStock(10)
+			.withPrice(100.0)
+			.withManufacturer("Dell")
+
         );
     }
 }
